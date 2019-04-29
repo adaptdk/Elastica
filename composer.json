@@ -5,6 +5,13 @@
     "homepage": "http://elastica.io/",
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/p365labs/elasticsearch-php",
+            "no-api": true
+        }
+    ],
     "authors": [
         {
             "name": "Nicolas Ruflin",
@@ -14,7 +21,7 @@
     "require": {
         "php": "^7.0",
         "psr/log": "~1.0",
-        "elasticsearch/elasticsearch": "^6.0"
+        "elasticsearch/elasticsearch": "dev-master"
     },
     "require-dev": {
         "aws/aws-sdk-php": "~3.0",
